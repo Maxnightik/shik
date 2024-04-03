@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +9,43 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/preload.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/navigation.css">
     <link rel="stylesheet" href="css/main-link.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/slider.css">
     <link rel="stylesheet" href="css/price.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/reserve.css">
+    <link rel="stylesheet" href="css/radio.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <script src="js/script.js"></script>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
-            <div class="header_container">
-                <img src="img/logo.svg" alt="" class="header__logo">
+            <div class="header__container">
+                <a href="/">
+                    <img src="img/logo.svg" alt="" class="header__logo">
+                </a>
+
 
                 <nav class="header__navigation navigation">
                     <ul class="navigation__list">
                         <li class="navigation__item">
-                            <a href="#price" class="navigation__link">Price</a>
+                            <a href="#price" class="navigation__link">Ціна</a>
                         </li>
 
                         <li class="navigation__item">
-                            <a href="#about" class="navigation__link">About Us</a>
+                            <a href="#about" class="navigation__link">Про нас</a>
                         </li>
                     </ul>
                 </nav>
 
-                <a href="#reserve" class="header__link main-link">Got it</a>
+                <a href="#reserve" class="header__link main-link">Записатись</a>
             </div>
         </div>
     </header>
@@ -43,10 +55,9 @@
         <section class="hero">
             <div class="container">
                 <h1 class="hero__title">
-                    <span class="visually_hidden">Chik-chik</span>
+                    <span class="visually-hidden">Chik-chik</span>
                     <span>
-                        We create art
-                        which is not ashamed to show</span>
+                        Ми створюємо мистецтво, яке не соромно показати</span>
                 </h1>
 
                 <div class="hero__slider slider">
@@ -87,9 +98,9 @@
 
         <section class="price" id="price">
             <div class="container">
-                <h2 class="price__title">Price</h2>
+                <h2 class="price__title">Ціна</h2>
 
-                <p class="price__tagline">...priceless but still</p>
+                <p class="price__tagline">...безцінне, але все ж</p>
 
                 <div class="price__wrapper-content">
                     <div class="price__content">
@@ -99,31 +110,31 @@
                                 <span class="price__item-count">50$</span>
                             </li>
                             <li class="price__item">
-                                <span class="price__item-title">Haircut with scissors</span>
-                                <span class="price__item-count">50$</span>
+                                <span class="price__item-title">clipper haircut</span>
+                                <span class="price__item-count">45$</span>
                             </li>
                             <li class="price__item">
-                                <span class="price__item-title">Haircut with scissors</span>
-                                <span class="price__item-count">50$</span>
+                                <span class="price__item-title">haircut + beard trim</span>
+                                <span class="price__item-count">55$</span>
                             </li>
                             <li class="price__item">
-                                <span class="price__item-title">Haircut with scissors</span>
-                                <span class="price__item-count">50$</span>
+                                <span class="price__item-title">haircut + beard modeling</span>
+                                <span class="price__item-count">60$</span>
                             </li>
                             <li class="price__item">
-                                <span class="price__item-title">Haircut with scissors</span>
-                                <span class="price__item-count">50$</span>
+                                <span class="price__item-title">Shaving your head</span>
+                                <span class="price__item-count">35$</span>
                             </li>
                             <li class="price__item">
-                                <span class="price__item-title">Haircut with scissors</span>
-                                <span class="price__item-count">50$</span>
+                                <span class="price__item-title">styling</span>
+                                <span class="price__item-count">35$</span>
                             </li>
                             <li class="price__item">
-                                <span class="price__item-title">Haircut with scissors</span>
-                                <span class="price__item-count">50$</span>
+                                <span class="price__item-title">Eyebrow shaping</span>
+                                <span class="price__item-count">30$</span>
                             </li>
                         </ul>
-                        <a href="#reserve" class="price__link main-link">Got it</a>
+                        <a href="#reserve" class="price__link main-link">Записатись</a>
                     </div>
                 </div>
             </div>
@@ -131,45 +142,46 @@
         <section class="about" id="about">
             <div class="container">
                 <h2 class="about__title">
-                    We help all men
-                    look confident</h2>
-                    <p class="about__description">
-                        Chik chik is much more than just barber. This is the place where you will be helped to find your own unique style. It is worth trusting our masters once, and, believe me, the new image will not leave you indifferent. Men's haircuts and dangerous shaves are our speciality, and we believe our barbers are the best at it.</p>
-            
-                        <ul class="about__list">
-                            <li class="about__item">
-                                <h3 class="about__item-title">Top specialists</h3>
-                                <p class="about__item-description">We will cut you to the highest standard.</p>
-                            </li>
-                            <li class="about__item">
-                                <h3 class="about__item-title">Top specialists</h3>
-                                <p class="about__item-description">We will cut you to the highest standard.</p>
-                            </li>
-                            <li class="about__item">
-                                <h3 class="about__item-title">Top specialists</h3>
-                                <p class="about__item-description">We will cut you to the highest standard.</p>
-                            </li>
-                        </ul>
+                    Ми допомагаємо всім чоловікам виглядати впевнено</h2>
+                <p class="about__description">
+                    Чік Чік — це набагато більше, ніж просто перукар. Саме тут вам допоможуть знайти свій неповторний
+                    стиль. Варто один раз
+                    довіритися нашим майстрам, і, повірте, новий образ не залишить Вас байдужим. Чоловічі стрижки та
+                    небезпечне гоління —
+                    наша спеціалізація, і ми вважаємо, що наші перукарі найкращі в цьому.</p>
+
+                <ul class="about__list">
+                    <li class="about__item about__item_top">
+                        <h3 class="about__item-title">НАЙКРАЩІ СПЕЦІАЛІСТИ</h3>
+                        <p class="about__item-description">Ми розкроїмо вас за найвищими стандартами</p>
+                    </li>
+                    <li class="about__item about__item_master">
+                        <h3 class="about__item-title">МАЙСТРИ БОРОДИ ТА ВУСІВ
+                        </h3>
+                        <p class="about__item-description">Ми ретельно укладемо вашу бороду та вуса
+                        </p>
+                    </li>
+                    <li class="about__item about__item_garant">
+                        <h3 class="about__item-title">ГАРАНТІЯ ЯКОСТІ</h3>
+                        <p class="about__item-description">Ми використовуємо тільки професійну продукцію</p>
+                    </li>
+                </ul>
             </div>
         </section>
         <section class="reserve" id="reserve">
             <div class="container">
-                <h2 class="reserve__title">How to join us</h2>
+                <h2 class="reserve__title">ЯК ДО НАС ПРИЄДНАТИСЯ</h2>
 
                 <ol class="reserve__list">
-                    <li class="reserve__item">Select a service, you can select several at once</li>
-                </ol>
-                <ol class="reserve__list">
-                    <li class="reserve__item">Select a service, you can select several at once</li>
-                </ol>
-                <ol class="reserve__list">
-                    <li class="reserve__item">Select a service, you can select several at once</li>
+                    <li class="reserve__item">Виберіть послугу, можна вибрати відразу декілька</li>
+                    <li class="reserve__item">Виберіть спеціаліста</li>
+                    <li class="reserve__item">Виберіть зручний день і час</li>
                 </ol>
 
                 <form class="reserve__form">
                     <div class="reserve__form-container">
                         <fieldset class="reserve__fieldset">
-                            <legend class="reserve__legend">Service</legend>
+                            <legend class="reserve__legend">СЕРВІС</legend>
 
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="service">
@@ -178,142 +190,153 @@
 
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="service">
-                                <span class="radio__label">Haircut with scissors</span>
+                                <span class="radio__label">clipper haircut</span>
                             </label>
 
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="service">
-                                <span class="radio__label">Haircut with scissors</span>
+                                <span class="radio__label">haircut + beard trim</span>
                             </label>
 
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="service">
-                                <span class="radio__label">Haircut with scissors</span>
+                                <span class="radio__label">haircut + beard modeling</span>
                             </label>
 
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="service">
-                                <span class="radio__label">Haircut with scissors</span>
+                                <span class="radio__label">Shaving your head</span>
                             </label>
 
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="service">
-                                <span class="radio__label">Haircut with scissors</span>
+                                <span class="radio__label">styling</span>
                             </label>
-                            
+
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="service">
-                                <span class="radio__label">Haircut with scissors</span>
+                                <span class="radio__label">Eyebrow shaping</span>
                             </label>
                         </fieldset>
 
                         <fieldset class="reserve__fieldset">
-                            <legend class="reserve__legend">Specialist</legend>
+                            <legend class="reserve__legend">СПЕЦІАЛІСТ</legend>
 
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="spec">
-                                <span class="radio__label radio__label">Igor</span>
+                                <span class="radio__label radio__label_spec"
+                                    style="--bg-image: url(../img/spec1.png)">Igor</span>
                             </label>
 
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="spec">
-                                <span class="radio__label radio__label">Igor</span>
+                                <span class="radio__label radio__label_spec"
+                                    style="--bg-image: url(..//img/spec2.png)">Anatoly</span>
                             </label>
 
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="spec">
-                                <span class="radio__label radio__label">Igor</span>
-                            </label>
-
-                            <label class="radio"> 
-                                <input class="radio__input" type="radio" name="spec">
-                                <span class="radio__label radio__label">Igor</span>
+                                <span class="radio__label radio__label_spec"
+                                    style="--bg-image: url(..//img/spec3.png)">Ruslan</span>
                             </label>
 
                             <label class="radio">
                                 <input class="radio__input" type="radio" name="spec">
-                                <span class="radio__label radio__label">Igor</span>
+                                <span class="radio__label radio__label_spec"
+                                    style="--bg-image: url(..//img/spec4.png)">Michael</span>
+                            </label>
+
+                            <label class="radio">
+                                <input class="radio__input" type="radio" name="spec">
+                                <span class="radio__label radio__label_spec"
+                                    style="--bg-image: url(..//img/spec5.png)">Evgeney</span>
                             </label>
                         </fieldset>
-                        
+
 
                         <fieldset class="reserve__fieldset">
-                            <legend class="reserve__legend">Date and time</legend>
-                        </fieldset>
-
-                        <fieldset class="reserve__fieldset reserve__fieldset_sub">
-
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="mounth">
-                                <span class="radio__label">January</span>
-                            </label>
+                            <legend class="reserve__legend">ДАТА І ЧАС</legend>
 
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="mounth">
-                                <span class="radio__label">January</span>
-                            </label>
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="mounth">
-                                <span class="radio__label">January</span>
-                            </label>
-                        </fieldset>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="mounth">
+                                    <span class="radio__label">January</span>
+                                </label>
 
-                        <fieldset class="reserve__fieldset reserve__fieldset_sub">
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="day">
-                                <span class="radio__label">18 January</span>
-                            </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="mounth">
+                                    <span class="radio__label">February</span>
+                                </label>
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="day">
-                                <span class="radio__label">18 January</span>
-                            </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="mounth">
+                                    <span class="radio__label">March</span>
+                                </label>
+                            </fieldset>
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="day">
-                                <span class="radio__label">18 January</span>
-                            </label>
-                        </fieldset>
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
 
-                        <fieldset class="reserve__fieldset reserve__fieldset_sub">
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">18 January</span>
+                                </label>
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="time">
-                                <span class="radio__label">10:00-11:30</span>
-                            </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">19 January</span>
+                                </label>
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="time">
-                                <span class="radio__label">10:00-11:30</span>
-                            </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">20 January</span>
+                                </label>
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="time">
-                                <span class="radio__label">10:00-11:30</span>
-                            </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="day">
+                                    <span class="radio__label">21 January</span>
+                                </label>
+                            </fieldset>
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="time">
-                                <span class="radio__label">10:00-11:30</span>
-                            </label>
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="time">
-                                <span class="radio__label">10:00-11:30</span>
-                            </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">10:00-11:30</span>
+                                </label>
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="time">
-                                <span class="radio__label">10:00-11:30</span>
-                            </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">11:30-13:00</span>
+                                </label>
 
-                            <label class="radio">
-                                <input class="radio__input" type="radio" name="time">
-                                <span class="radio__label">10:00-11:30</span>
-                            </label>
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">13:00-14:30</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">14:30-16:00</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">16:00-17:30</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">17:30-19:00</span>
+                                </label>
+
+                                <label class="radio">
+                                    <input class="radio__input" type="radio" name="time">
+                                    <span class="radio__label">19:00-20:30</span>
+                                </label>
+                            </fieldset>
                         </fieldset>
                     </div>
 
@@ -326,27 +349,38 @@
 
     <footer class="footer">
         <div class="container">
-            <img src="img/logo.svg" alt="" class="header__logo">
+            <div class="footer__container">
+                <img src="img/logo.svg" alt="" class="footer__logo">
 
-            <nav class="header__navigation navigation">
-                <ul class="navigation__list">
-                    <li class="navigation__item">
-                        <a href="#price" class="navigation__link">Price</a>
+                <div class="footer__navigation navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item">
+                            <a href="#price" class="navigation__link">Ціна</a>
+                        </li>
+
+                        <li class="navigation__item">
+                            <a href="#about" class="navigation__link">Про нас</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <ul class="footer__developers">
+                    <li class="footer__developer">
+                        Designer: <a class="footer__developer-link" href="#">Anastasia Ilina</a>
                     </li>
-
-                    <li class="navigation__item">
-                        <a href="#about" class="navigation__link">About Us</a>
+                    <li class="footer__developer">
+                        Developer: <a class="footer__developer-link" href="#">Maxnight</a>
                     </li>
                 </ul>
-                <ul class="navigation__list">
-                    <li class="navigation__item">Designer: Anastasia Ilina</li>
-                    <li class="navigation__item">Developer: Maxnight</li>
-                </ul>
-            </nav>
-            
 
-            <p class="copyright">© chik chik, 2023</p>
-        </div>    
+
+
+                <p class="footer__copyright">
+                    <small>© chik chik, 2023</small>
+                </p>
+            </div>
+        </div>
     </footer>
 </body>
+
 </html>
