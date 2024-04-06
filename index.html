@@ -180,7 +180,7 @@
 
                 <form class="reserve__form">
                     <div class="reserve__form-container">
-                        <fieldset class="reserve__fieldset">
+                        <fieldset class="reserve__fieldset reserve__fieldset_service" name="fieldservice">
                             <legend class="reserve__legend">СЕРВІС</legend>
 
                             <label class="radio">
@@ -219,7 +219,7 @@
                             </label>
                         </fieldset>
 
-                        <fieldset class="reserve__fieldset">
+                        <fieldset class="reserve__fieldset" name="fieldspec">
                             <legend class="reserve__legend">СПЕЦІАЛІСТ</legend>
 
                             <label class="radio">
@@ -254,11 +254,11 @@
                         </fieldset>
 
 
-                        <fieldset class="reserve__fieldset">
+                        <fieldset class="reserve__fieldset" name="fieldata">
                             <legend class="reserve__legend">ДАТА І ЧАС</legend>
 
 
-                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub" name="fieldmonth">
 
                                 <label class="radio">
                                     <input class="radio__input" type="radio" name="mounth">
@@ -277,7 +277,7 @@
                                 </label>
                             </fieldset>
 
-                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub" name="fieldday">
 
                                 <label class="radio">
                                     <input class="radio__input" type="radio" name="day">
@@ -300,7 +300,7 @@
                                 </label>
                             </fieldset>
 
-                            <fieldset class="reserve__fieldset reserve__fieldset_sub">
+                            <fieldset class="reserve__fieldset reserve__fieldset_sub" name="fieldtime">
 
                                 <label class="radio">
                                     <input class="radio__input" type="radio" name="time">
@@ -340,7 +340,7 @@
                         </fieldset>
                     </div>
 
-                    <button class="reserve__btn main-link" disabled>Got it</button>
+                    <button class="reserve__btn main-link" disabled id="btn">Got it</button>
                 </form>
             </div>
         </section>
